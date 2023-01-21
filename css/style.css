@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;700;800&display=swap');
+.navbar-brand{
+    width: 100px;
+}
+.text-main{
+    color: #10cab7 !important;
+}
+.nav-link{
+    font-size: 16px !important;
+    line-height: 18px !important;
+    font-weight: 400 !important;
+    font-family:  'Work Sans', sans-serif !important;
+    color: #333333;
+}
+header{
+    height: calc(100vh);
+    background-image: url("../img/landing.jpg");
+    background-position: center;
+    background-size: cover;
+}
+header h1{
+    font-size: 50px;
+    line-height: 58px;
+    font-weight: 700;
+    font-family:  'Work Sans', sans-serif;
+}
+header p{
+    font-size: 19px;
+    line-height: 34px;
+    font-weight: 400;
+    font-family:  'Work Sans', sans-serif;
+}
+
+.info .card i{
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 900;
+}
+.info .card h5{
+    font-size: 19px;
+    line-height: 22px;
+    font-weight: 800;
+    font-family:  'Work Sans', sans-serif;
+}
+.info .card p{
+    font-size: 17px;
+    line-height: 31px;
+    font-weight: 400;
+    color: #777777;
+    font-family:  'Work Sans', sans-serif;
+}
+.services .box i{
+    font-size: 32px;
+    font-weight: 900;
+}
+.services .text h3{
+    font-size: 19px;
+    line-height: 22px;
+    font-weight: 700;
+    font-family:  'Work Sans', sans-serif;
+}
+.services .text p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    font-family:  'Work Sans', sans-serif;
+}
+.items h2{
+    font-size: calc(3rem + 3vw);
+    line-height: 115px;
+    font-weight: 800;
+    columns: #ebeced;
+    font-family:  'Work Sans', sans-serif;
+    opacity: .2;
+}
+.items p{
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #797979;
+    font-family:  'Work Sans', sans-serif;
+    margin-top: -40px;
+}
+.portfolio .card h5{
+    font-size: 19px;
+    line-height: 22px;
+    font-weight: 700;
+    font-family:  'Work Sans', sans-serif;
+}
+.portfolio .card p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #777777;
+    font-family:  'Work Sans', sans-serif;
+}
+.about .box p:first-child{
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #000000;
+    font-family:  'Work Sans', sans-serif;
+}
+.about .box span{
+display: block;   
+width: 50%;
+height: 2px;
+background-color: #10cab7;
+margin: 20px 0;
+}
+@media (max-width:768px) {
+    .about .box span{
+        margin: 20px auto;
+        }
+}
+.about .box p:last-child{
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #777777;
+    font-family:  'Work Sans', sans-serif;
+}
+.contact .container > p:nth-child(2){
+    font-size: 25px;
+    line-height: 29px;
+    font-weight: 800;
+    color: #2c4755;
+    font-family:  'Work Sans', sans-serif;
+}
+.contact .container > a{
+    display: inline-block;
+    font-size: 25px;
+    line-height: 29px;
+    font-weight: 800;
+    color: #10cab7;
+    font-family:  'Work Sans', sans-serif;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+footer p{
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    font-family:  'Work Sans', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #10cab7;
+}
